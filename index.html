@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    align: center;
+    color: white;
+    background-color: black;
+}
+body {
+    width: 100%;
+    align: center;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+}
+ol {
+    text-align: left;
+    max-width: 900px;
+    align: left;
+}
+li {
+    align: left;
+    text-align: left;
+    float: left;
+    list-style: disc;
+    margin-right: 0.2rem;
+}
+h1 {
+    align: center;
+    max-width: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+    align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+h2 {
+    max-width: 800px;
+    align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    max-width: 1000px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table {
+    width: 1000px;
+}
+b {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+</style>
+</head>
+<body>
+<div align="center">
+    <div align="center">
+        <h1> Power Ampache 2 </h1>
+            <img width="350" 
+                 height="350" 
+                 style="display: block; border: 0px solid #f5f5f5; border-radius: 9999px;" 
+                 src="https://github.com/icefields/Power-Ampache-2/assets/149625124/7614a6a7-898b-4a8c-b891-9a07505529be">
+    </div>
+
+
+    <div align="center">
+        <img alt="GitHub" src="https://img.shields.io/github/license/icefields/Power-Ampache-2?color=c3e7ff&style=flat-square">
+        <a target="_blank" href="https://github.com/icefields/Power-Ampache-2/releases">
+            <img alt="Version" src="https://img.shields.io/github/v/release/icefields/Power-Ampache-2?color=c3e7ff&label=version&style=flat-square">
+        </a>
+        <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/icefields/Power-Ampache-2?color=c3e7ff&style=flat-square">
+        <br>    
+        <a target="_blank" href="https://t.me/PowerAmpache">
+            <img alt="Telegram" src="https://img.shields.io/badge/telegram-%20Power%20Ampache%202-c3e7ff?logo=telegram&style=flat-square">
+        </a>
+<!--
+    <a target="_blank" href="https://www.figma.com/file/ViBW8GbUgkTMmK6a80h8X1/Read-You?node-id=7028%3A23673">
+        <img alt="Figma" src="https://img.shields.io/badge/Figma-Power-Ampache-c3e7ff?logo=figma&style=flat-square">
+    </a>
+    -->
+    </div>
+</div>
+
+
+<div align="center">
+<h2> 
+Android music client for <a target="_blank" href="https://ampache.org/"> Ampache </a>
+</h2>
+
+<p style="text-align: center;">
+Power Ampache 2 is a complete Android Music Streaming App suite, presented in <a target="_blank" href="https://m3.material.io/">Material You</a> style.
+<br>Connects to Ampache, Nextcloud and Subsonic backends (Ampache API 4 and above).
+</p>
+
+<br><br>
+<a target="_blank" href="https://t.me/PowerAmpache">
+    <img width="50" height="50" hspace="20" alt="Telegram badge" src="https://static-00.iconduck.com/assets.00/telegram-icon-512x512-4sztjer8.png">
+</a>
+<a target="_blank" href="https://floss.social/@powerampache">
+    <img width="50" height="50" hspace="20" alt="Mastodon badge" src="https://github.com/icefields/Power-Ampache-2/assets/149625124/81e35dc2-d81c-46ed-9321-4461349dc8e7">
+</a>
+<a target="_blank" href="https://github.com/icefields/Power-Ampache-2/blob/main/LICENSE.md">
+    <img alt="GPLv3 badge" hspace="20" src="https://www.gnu.org/graphics/gplv3-88x31.png">
+</a>
+<br><br>
+<br>
+<h2> Screenshots (Dark, Light and MaterialYou) </h2>
+<table>
+    <tr>
+        <th><b>Home Screen</b></th>
+        <th><b>Music Player</b></th>
+        <th><b>pull-up screens</b></th>
+        <th><b>Powerful Offline-Mode</b></th>
+    </tr>
+    <tr>
+        <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/405579fd-617d-4d55-b7fa-20b457dcd373" width=250px alt="home page"></th>
+        <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/1e4da7c5-a659-4363-ad7f-7907d21952fe" width=250px alt="home page light"></th>
+        <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/ccc13c17-3bde-4b27-8510-d98284b6ee65" width=250px alt="player view"></th>
+        <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/8f3e991c-3752-48f3-adc2-cd6e9c91ea4c" width=250px alt="offline mode view"></th>
+    </tr>
+    <tr>
+                <th><b>Artist view, with info and discography</b></th>
+                <th><b>Single Album view, with info and songs</b></th>
+                <th><b> </b></th>
+                <th><b>Advanced Search</b></th>
+        </tr>
+        <tr>
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/de081122-23db-4ef7-810f-95fe925dcc29" width=250px alt="home page"></th>
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/b435281f-8f59-4b6a-927f-9e4a43999123" width=250px alt="home page light"></th>
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/ccee4cfd-c21d-421f-bce9-0b5efc4f7c33" width=250px alt="player view"></th>
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/0f687f40-37ce-4852-92ab-9153dcb2b707" width=250px alt="offline mode view"></th>
+    </tr>
+        <th><b>Album Screen</b></th>
+                <th><b>Albums from collection</b></th>
+                <th><b>Artists</b></th>              
+                <th><b> </b></th>      
+        </tr>
+        <tr>
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/b169d991-cdb0-4bef-b1c4-2ac7abd9dbba" width=250px alt="home page"></th>
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/6b70e21e-58f4-4572-8038-c3a4f65e8613" width=250px alt="home page light"></th>
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/ce2ef9d0-e484-48e2-a4b5-46a362fa014f" width=250px alt="player view"></th>
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/09d7a6d3-632c-471e-b017-20fc66bf487e" width=250px alt="offline mode view"></th>
+    </tr>
+    <tr>
+                <th><b>Queue from bottom drawer</b></th>          
+                <th><b>Lyrics</b></th>                
+                <th><b>Edit Queue, Playlists. Remove/Add Playlists</b></th>        
+                <th><b> </b></th>                    
+        </tr>
+    <tr>
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/e291aadc-ccb4-4e80-9011-348ccfcacd64" width=250px alt="home page"></th>                                        <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/3c8693f1-6ceb-43ed-b231-eebbbe557315" width=250px alt="home page light"></th>                       
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/a33fbe04-375e-419a-a9b7-10587dc897eb" width=250px alt="player view"></th>                          
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/be943ba3-8e9f-4857-87c6-69c1fef0ba85" width=250px alt="offline mode view"></th>                     
+        </tr>  
+    <tr> 
+                <th><b>Playlists</b></th>
+                <th><b>Notification with player controls</b></th>
+                <th><b>Notification on lock screen</b></th>
+                <th><b> </b></th>
+        </tr>
+
+    <tr>
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/db68dd56-5a09-46d0-9c12-4d6f099ef440" width=250px alt="home page"></th>                             
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/cf66b7f9-634d-4245-b187-6b0f08171829" width=250px alt="home page light"></th>                       
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/4527632c-e1ec-4147-964c-43317e984e26" width=250px alt="player view"></th>                           
+                <th><img src="https://github.com/icefields/Power-Ampache-2/assets/149625124/75242864-0e19-413b-8936-71afad0db614" width=250px alt="offline mode view"></th>                     
+        </tr>
+</table>
+<br><br><br>
+
+<table>
+<tr>
+    <h2>Features</h2>
+    <p>Feature rich music client for Ampache, Subsonic, Nextcloud backends, provides all the features found in  other mainstream music player (such as Spotify, Youtube Music, Apple Music and so on) and more, like "actually" downloading and exporting music files, lyrics, multiaccount. Plus no ads, no tracking, no bloatware.
+    </p>
+</tr>
+
+<tr>
+<ol>
+    <li>MaterialYou Themes, the colour of the app will automatically match the colour scheme of your device, alternatively choose or create your own theme.</li><br>
+    <li>Unique generated playlists (smartlists)</li><br>
+    <li>Dark & light mode with adaptive interface colors</li><br>
+    <li>Fade out/in on pause/resume/next/previous</li><br>
+    <li>Media keys support</li><br>
+    <li>Every Bluetooth functionality is avaibable in the app.</li><br>
+    <li>Song notifications with play controls. Also on lock screen.</li><br>
+    <li>Album, Artist, Songs collections</li><br>
+    <li>Advanced search</li><br>
+    <li>Powerful offline mode</li><br>
+    <li>Create, edit, share your playlists</li><br>
+</ol>
+
+</tr>
+
+<tr>
+<br>
+<h2>Contributing</h2>
+<p>Power Ampache 2 is developed using Clean Architecture on top of MVVM, following SOLID principles.<br>
+<i><b>A complete contribution readme is coming soon.</b></i> In the meantime, before starting any contribution, please contact me for an overview of the design patterns, code style and libraries used.</p>
+</p>
+<!-- - Fork the repository.
+- Make your changes in a separate branch.
+- Open a pull request. -->
+<br><br>
+
+</tr>
+<tr>
+     <b>What I'm working on right now and what's next</b>
+    <ol>
+    <li><input type="checkbox" onclick="return false" class="checkbox" checked >Improve Notifications Screen </li>
+    <br><br>
+    <li><input type="checkbox" onclick="return false" class="checkbox" checked >Multi-account features</li>
+    <br><br>
+    <li><input type="checkbox" onclick="return false" class="checkbox" >UI for Tablets</li>
+    <br><br>
+    <li><input type="checkbox" onclick="return false" class="checkbox" checked >Bulk-delete downloaded songs</li>
+    <br><br>
+    <li><input type="checkbox" onclick="return false" class="checkbox" checked>Playlist edit drag and drop</li>
+    <br><br>
+    <li><input type="checkbox" onclick="return false" class="checkbox" >Android TV version</li>
+    <br><br>
+    <li><input type="checkbox" onclick="return false" class="checkbox" >Android widget</li>
+    <br><br>
+    <li><input type="checkbox" onclick="return false" class="checkbox" >implement share with app scheme</li>
+    <br><br>
+    <li><input type="checkbox" onclick="return false" class="checkbox" >Android Auto</li>
+</ol>
+<br>
+
+    </tr>
+
+    <tr>
+    <p><b>📱 CONNECT TO AMPACHE MUSIC SERVERS</b><br>
+With Power Ampache 2, you can effortlessly connect to Ampache servers and freely listen to music, without any tracker or ads. You can even download the music you want for offline use, or share with friends.
+    </p>
+    </tr>
+<tr>
+    <p><b>🚀 LIGHTNING-FAST AND LIGHTWEIGHT:</b><br>
+Despite its powerful features, Power Ampache 2 boasts a remarkable performance, making it quick and easy to listen music at full quality (FLAC support coming soon), create your own playlists (public or private) and queue. Experience speed and efficiency while enjoying your favourite music.
+    </p>
+</tr>
+<tr>
+    <p><b>🔐 ENHANCED PRIVACY:</b><br>
+Your data is not collected and sold, there are no ads in the app.
+    </p></tr>
+<tr>
+    <p><b>🔍 EFFICIENT SONG SEARCH:</b><br>
+Power Ampache 2 provides a quick and efficient search for finding songs/albums/artists/playlists. Find what you need, when you need it.
+    </p></tr>
+<tr>
+    <p><b>🌈 MODERN DESIGN & USER-FRIENDLY INTERFACE:</b><br>
+Enjoy a clean, modern design with a user-friendly interface. The app features a material3 design, MaterialYou and other themes, providing a visually appealing and comfortable user experience.
+</p></tr>
+<tr>
+    <p><b>🌐 OPEN-SOURCE TRANSPARENCY:</b><br>
+Power Ampache app is completely free of ads and does not request unnecessary permissions. Moreover, it is fully open-source, providing you with peace of mind, as you have access to the source code for security and privacy audits.
+    </p></tr>
+</table>
+<br>
+<h2>Download</h2>
+<h3 style="text-align:center;max-width:1000px;">FDroid and PlayStore links coming soon (Expected Release Date May 1)
+</h3>
+<table>
+    <tr>
+        <th>
+<a target="_blank" href="https://github.com/icefields/Power-Ampache-2/releases">
+    <img height="80" hspace="20" alt="Get it on GitHub" src="https://s1.ax1x.com/2023/01/12/pSu1a36.png">
+</a></th>
+<th>
+<a target="_blank" href="https://t.me/powerampache)">
+    <img height="80" hspace="20" alt="Get it on Telegram" src="https://s1.ax1x.com/2023/01/12/pSnTZ0f.png">
+</a>
+</th></tr>
+<table>
+<!--
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="80">](https://f-droid.org/packages/luci.sixsixsix/)
+
+F-Droid releases can not upgrade to other releases and it is compiled, signed and distributed uniformly by [F-Droid](https://f-droid.org/docs/FAQ_-_General/).
+
+
+➡️ Explore more  apps: https://www..org<br>
+➡️ Open-Source Code: https://www.github.com/<br>
+➡️ Join the community on Reddit: https://www.reddit.com/r/<br>
+➡️ Connect on Telegram: https://t.me/
+
+-->
+
+<h2 style="text-align:left;align:left;">Demo</h2>
+<p>
+You can select a demo instance from the login screen or login into your own server.
+</p>
+
+<h2 style="text-align:left;align:left;">Translations coming soon</h2>
+
+<h2 style="text-align:left;align:left;">Ending Note </h2>
+<p>
+- Consider giving the repo a ⭐ if you liked the project!i<br>
+- Consider sponsoring me to help me build more projects like this.
+</p>
+<!--- Checkout my other projects! -->
+</body>
+</html>
