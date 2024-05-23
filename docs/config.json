@@ -1,5 +1,5 @@
 {
-  "playlistAddNew_enable": false,
+  "playlistAddNew_enable": true,
   "queueResetOnNewSession": false,
   "dogmazicDemoUser": "ths6hh",
   "playlistFetchLimit": 100
