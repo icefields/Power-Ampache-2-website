@@ -3,5 +3,6 @@
   "playlistAddNew_enable": true,
   "queueResetOnNewSession": false,
   "dogmazicDemoUser": "ths6hh",
-  "playlistFetchLimit": 100
+  "playlistFetchLimit": 100,
+  "clearLocalDataOnLogout": true
 }
