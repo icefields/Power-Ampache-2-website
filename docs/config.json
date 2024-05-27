@@ -4,5 +4,6 @@
   "queueResetOnNewSession": false,
   "dogmazicDemoUser": "ths6hh",
   "playlistFetchLimit": 100,
-  "clearLocalDataOnLogout": true
+  "clearLocalDataOnLogout": true,
+  "forceLoginDialogsOnAllVersions": true
 }
