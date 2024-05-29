@@ -6,5 +6,5 @@
   "playlistFetchLimit": 100,
   "clearLocalDataOnLogout": true,
   "forceLoginDialogsOnAllVersions": true,
-  "loginWarning": "Nextcloud Music users: Only lowercase usernames are accepted at this time. We're working to resolve this in the next release."
+  "loginWarning": "Nextcloud Music Users: only lowercase usernames, including 'admin', will work. The issue is currently being fixed on the Nextcloud Music side."
 }
