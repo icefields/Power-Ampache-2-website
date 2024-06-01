@@ -1,9 +1,10 @@
 {
-  "version": 56,
+  "version": 58,
   "playlistAddNew_enable": false,
   "queueResetOnNewSession": false,
   "dogmazicDemoUser": "ths6hh",
   "playlistFetchLimit": 100,
+  "playbackErrorRetries": 16,
   "clearLocalDataOnLogout": true,
   "forceLoginDialogsOnAllVersions": true,
   "loginWarning": "Nextcloud Music Users: only lowercase usernames, including 'admin', will work. The issue is currently being fixed on the Nextcloud Music side."
