@@ -1,6 +1,6 @@
 {
-  "version": 59,
-  "playlistAddNew_enable": false,
+  "version": 60,
+  "playlistAddNew_enable": true,
   "queueResetOnNewSession": false,
   "dogmazicDemoUser": "ths6hh",
   "playlistFetchLimit": 100,
