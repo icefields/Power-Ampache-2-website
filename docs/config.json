@@ -8,7 +8,7 @@
   "forceLoginDialogsOnAllVersions": true,
   "playlistAddNew_enable": true,
   "playbackErrorRetries": 16,
-  "playlistFetchLimit": 100,
+  "playlistFetchLimit": 3,
   "playlistSongsFetchLimit": 100,
   "queueResetOnNewSession": false,
   "loginWarning": "Nextcloud Music Users: only lowercase usernames, including 'admin', will work. The issue is currently being fixed on the Nextcloud Music side."
