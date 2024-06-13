@@ -7,5 +7,6 @@
   "playbackErrorRetries": 16,
   "clearLocalDataOnLogout": true,
   "forceLoginDialogsOnAllVersions": true,
+  "enableTokenLogin": true,
   "loginWarning": "Nextcloud Music Users: only lowercase usernames, including 'admin', will work. The issue is currently being fixed on the Nextcloud Music side."
 }
