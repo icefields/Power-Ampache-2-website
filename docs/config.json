@@ -1,12 +1,15 @@
 {
   "version": 60,
-  "playlistAddNew_enable": true,
-  "queueResetOnNewSession": false,
-  "dogmazicDemoUser": "ths6hh",
-  "playlistFetchLimit": 100,
-  "playbackErrorRetries": 16,
   "clearLocalDataOnLogout": true,
-  "forceLoginDialogsOnAllVersions": true,
+  "dogmazicDemoUser": "ths6hh",
+  "dogmazicDemoToken": "",
+  "dogmazicDemoUrl": "play.dogmazic.net",
   "enableTokenLogin": true,
+  "forceLoginDialogsOnAllVersions": true,
+  "playlistAddNew_enable": true,
+  "playbackErrorRetries": 16,
+  "playlistFetchLimit": 100,
+  "playlistSongsFetchLimit": 100,
+  "queueResetOnNewSession": false,
   "loginWarning": "Nextcloud Music Users: only lowercase usernames, including 'admin', will work. The issue is currently being fixed on the Nextcloud Music side."
 }
