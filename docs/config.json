@@ -1,8 +1,8 @@
 {
   "version": 60,
   "clearLocalDataOnLogout": true,
-  "dogmazicDemoUser": "ths6hh",
-  "dogmazicDemoToken": "",
+  "dogmazicDemoUser": "",
+  "dogmazicDemoToken": "ac0cf8b78c2af2780ab401162240499e",
   "dogmazicDemoUrl": "play.dogmazic.net",
   "enableTokenLogin": true,
   "forceLoginDialogsOnAllVersions": true,
