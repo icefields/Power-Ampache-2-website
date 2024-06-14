@@ -12,9 +12,9 @@
   "playlistSongsFetchLimit": 100,
   "queueResetOnNewSession": false,
   "loginWarning": "Nextcloud Music Users: only lowercase usernames, including 'admin', will work. The issue is currently being fixed on the Nextcloud Music side.",
-  "playlistsUserFetch": false,
-  "smartlistsUserFetch": false,
-  "playlistsAdminFetch": false,
-  "smartlistsAdminFetch": false,
-  "playlistsServerAllFetch": false
+  "playlistsUserFetch": true,
+  "smartlistsUserFetch": true,
+  "playlistsAdminFetch": true,
+  "smartlistsAdminFetch": true,
+  "playlistsServerAllFetch": true
 }
