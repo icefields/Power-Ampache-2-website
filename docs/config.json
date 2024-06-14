@@ -16,5 +16,5 @@
   "smartlistsUserFetch": true,
   "playlistsAdminFetch": true,
   "smartlistsAdminFetch": true,
-  "playlistsServerAllFetch": true
+  "playlistsServerAllFetch": false
 }
