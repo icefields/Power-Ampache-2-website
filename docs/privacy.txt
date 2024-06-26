@@ -1,0 +1,33 @@
+Privacy Policy for Power Ampache 2
+
+Effective Date: Wed June 26 2024
+
+I developed and maintain Power Ampache 2, an open-source streaming application distributed under the GPL-3.0 license. This Privacy Policy outlines how information is handled when you use the application.
+
+1. Information Collection
+
+Currently, Power Ampache 2 does not collect any personal information from users. It does not use cookies or similar tracking technologies. The app operates independently on the user's device and does not transmit any user data to external servers.
+
+2. Future Data Collection
+
+In the future, I may collect user data for development purposes to improve Power Ampache 2. This data collection would be limited to non-personal usage data, such as app usage statistics and crash reports. Any future data collection will be conducted in compliance with applicable laws and regulations.
+
+3. Data Usage
+
+The app connects only to self-hosted servers specified by the user for streaming purposes. Power Ampache 2 does not store, process, or transmit any personal data or usage information outside of the user's device.
+
+4. Security
+
+I take reasonable measures to ensure the security of Power Ampache 2, including regular updates and maintenance. However, since the app does not currently collect or transmit personal data, the risk of unauthorized access to user information is minimized.
+
+5. Third-Party Services
+
+Power Ampache 2 may utilize third-party libraries or services strictly for technical or functional purposes related to its open-source functionality and adherence to the GPL-3.0 license. These services do not collect personal information.
+
+6. Updates to Privacy Policy
+
+This Privacy Policy may be updated to reflect changes in Power Ampache 2 or legal requirements, including any future data collection practices. Updates will be posted within the app or on the project's repository.
+
+7. Contact
+
+If you have any questions or concerns about this Privacy Policy or Power Ampache 2, you can contact me directly at [contact info on power.ampache.dev].
