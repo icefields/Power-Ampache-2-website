@@ -17,5 +17,5 @@
   "playlistsAdminFetch": false,
   "smartlistsAdminFetch": false,
   "playlistsServerAllFetch": true,
-  "clearLibraryOnCatalogClean": true
+  "clearLibraryOnCatalogClean": false
 }
