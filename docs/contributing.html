@@ -1,10 +1,201 @@
-<html>
-  <body>
-    <h1>Coming Soon</h1>
-    <p>
-      Power Ampache 2 is developed using Clean Architecture / MVVM, and adheres to SOLID principles. 
-      <br>
-      <br>
-      The contribution readme will be posted here soon. In the meantime, before making any contributions, please reach out to me for an overview of the design patterns, code style, and libraries used.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contribution Guidelines</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3, h4 {
+            color: #333;
+        }
+        code {
+            background-color: #eaeaea;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #eaeaea;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        ul, ol {
+            margin: 10px 0;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contribution Guidelines</h1>
+    <p>Thank you for contributing to Power Ampache 2! To ensure high-quality contributions, please follow these guidelines, including adhering to Clean Architecture and SOLID principles, and specific instructions about branching and merging.</p>
+
+    <h2>Branching and Merging Process</h2>
+    <ol>
+        <li><strong>Branching</strong>:
+            <ul>
+                <li><strong>Branch from <code>dev</code></strong>: Always branch out from the <code>dev</code> branch. This helps keep the <code>main</code> branch stable and ensures that new features and fixes are integrated smoothly.</li>
+            </ul>
+            <pre><code>git checkout dev
+git pull origin dev
+git checkout -b feature/your-feature-name
+            </code></pre>
+        </li>
+        <li><strong>Making Changes</strong>:
+            <ul>
+                <li>Follow Clean Architecture and SOLID principles as described below.</li>
+            </ul>
+        </li>
+        <li><strong>Commit Changes</strong>:
+            <ul>
+                <li>Use descriptive commit messages that reflect adherence to Clean Architecture and SOLID principles:</li>
+            </ul>
+            <pre><code>feat: add user authentication functionality with SRP and OCP
+
+Implemented user authentication logic following SRP and OCP principles.
+            </code></pre>
+        </li>
+        <li><strong>Push Changes</strong>:
+            <ul>
+                <li>Push your changes to your fork:</li>
+            </ul>
+            <pre><code>git push origin feature/your-feature-name
+            </code></pre>
+        </li>
+        <li><strong>Create a Pull Request (PR)</strong>:
+            <ul>
+                <li>Open a pull request against the <code>dev</code> branch. Clearly describe how your changes follow Clean Architecture and SOLID principles, and provide any relevant details about your implementation.</li>
+                <li><strong>Issue Tracker Requirement</strong>: Do not create PRs for changes that do not have a corresponding issue in the issue tracker. If you wish to work on something that is not listed, please create an issue first and wait for a response before starting your work. This ensures that the project scope is managed effectively and avoids unnecessary work.</li>
+            </ul>
+        </li>
+        <li><strong>Review Process</strong>:
+            <ul>
+                <li><strong>Review</strong>: All PRs will be reviewed to ensure compliance with Clean Architecture, SOLID principles, and project standards.</li>
+                <li><strong>Approval</strong>: Once reviewed, your PR will be approved and merged into <code>dev</code> by the maintainers.</li>
+            </ul>
+        </li>
+        <li><strong>Merging into <code>main</code></strong>:
+            <ul>
+                <li><strong>Merge into <code>main</code></strong>: Only the project maintainer (you) has the authority to merge changes from <code>dev</code> into the <code>main</code> branch. This ensures that the <code>main</code> branch remains stable and release-ready. After thorough testing and review in the <code>dev</code> branch, you will handle the final merge into <code>main</code>.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>Adhering to Clean Architecture and SOLID Principles</h2>
+    <ol>
+        <li><strong>Clean Architecture</strong>:
+            <ul>
+                <li><strong>Domain Layer</strong>:
+                    <ul>
+                        <li><strong>Purpose</strong>: The Domain Layer is the core of the application, encapsulating business logic and domain rules.</li>
+                        <li><strong>Components</strong>:
+                            <ul>
+                                <li><strong>Entities</strong>: Fundamental objects representing core business logic and rules. These should be independent of external systems.</li>
+                                <li><strong>Aggregates</strong>: Collections of related entities treated as a single unit for data changes, helping to enforce business rules and maintain consistency.</li>
+                                <li><strong>Domain Services</strong>: Provide business logic that doesn’t fit naturally within a single entity or aggregate. They often involve multiple entities and encapsulate domain-specific operations.</li>
+                                <li><strong>Repository Interfaces</strong>: Define methods for accessing and persisting aggregates and entities. Implementations of these interfaces should be in the Data Layer.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Data Classes</strong>: Define data structures specific to the Domain Layer, such as Entities and Aggregates, that encapsulate the core business logic and rules.</li>
+                    </ul>
+                </li>
+                <li><strong>Data Layer</strong>:
+                    <ul>
+                        <li><strong>Purpose</strong>: Handles data persistence and interacts with the database.</li>
+                        <li><strong>Components</strong>:
+                            <ul>
+                                <li><strong>Repository Implementations</strong>: Provide concrete implementations of the repository interfaces defined in the Domain Layer.</li>
+                                <li><strong>Database Entities</strong>: Map database structures to application models.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Data Classes</strong>: Define data structures specific to the Data Layer, such as database entities and data transfer objects (DTOs), to facilitate communication with the database and external data sources.</li>
+                    </ul>
+                </li>
+                <li><strong>Interface Adapters</strong>:
+                    <ul>
+                        <li><strong>Purpose</strong>: Adapt data between the Domain Layer and external systems (e.g., web frameworks, APIs).</li>
+                        <li><strong>Data Classes</strong>: Define data structures for communication between the Domain Layer and external interfaces, such as API request/response models.</li>
+                    </ul>
+                </li>
+                <li><strong>Frameworks and Drivers</strong>:
+                    <ul>
+                        <li><strong>Purpose</strong>: Include external tools and frameworks interacting with the Interface Adapters.</li>
+                        <li><strong>Data Classes</strong>: Define data structures specific to external tools and frameworks, which should be isolated from the core business logic.</li>
+                    </ul>
+                </li>
+                <li><strong>Player Package</strong>:
+                    <ul>
+                        <li><strong>Purpose</strong>: All functionality specific to the music player should reside in the <code>player</code> package.</li>
+                        <li><strong>Components</strong>: This includes any classes, interfaces, and data structures directly related to music playback, such as media controls, audio management, and player state handling.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><strong>SOLID Principles</strong>:
+            <ul>
+                <li><strong>Single Responsibility Principle (SRP)</strong>: Each class/module should have only one responsibility.</li>
+                <li><strong>Open/Closed Principle (OCP)</strong>: Classes/modules should be open for extension but closed for modification.</li>
+                <li><strong>Liskov Substitution Principle (LSP)</strong>: Derived classes should be substitutable for their base classes without altering the correctness of the program.</li>
+                <li><strong>Interface Segregation Principle (ISP)</strong>: Use specific interfaces rather than general-purpose ones.</li>
+                <li><strong>Dependency Inversion Principle (DIP)</strong>: Depend on abstractions rather than concrete implementations.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>Library Management</h2>
+    <ol>
+        <li><strong>Adding New Libraries</strong>:
+            <ul>
+                <li><strong>Discussion Required</strong>: Before adding any new libraries, discuss it with the project leader. This ensures that new dependencies align with the project's goals and do not introduce unnecessary complexity or compatibility issues.</li>
+            </ul>
+        </li>
+        <li><strong>Updating Existing Libraries</strong>:
+            <ul>
+                <li><strong>Approval Needed</strong>: Any updates to existing libraries must be communicated with the project leader. This helps maintain stability and compatibility across the project and ensures that updates do not introduce unforeseen issues.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>Coding Standards</h2>
+    <ul>
+        <li><strong>Style</strong>: Follow the coding style specified in our <a href="[STYLE_GUIDE]">STYLE_GUIDE</a> document.</li>
+        <li><strong>Documentation</strong>: Update documentation to reflect changes, ensuring consistency with Clean Architecture and SOLID principles.</li>
+        <li><strong>Testing</strong>: Write comprehensive tests and ensure your changes do not break existing functionality.</li>
+    </ul>
+
+    <h2>Reporting Issues</h2>
+    <p>For bugs or feature requests, please open an issue with detailed information, including steps to reproduce and relevant context.</p>
+
+    <h2>Code of Conduct</h2>
+    <p>Adhere to our <a href="[Code_of_Conduct]">Code of Conduct</a> to maintain a positive and respectful environment.</p>
+
+    <h2>License</h2>
+    <p>By contributing, you agree that your contributions will be licensed under the GPLv3 license.</p>
+
+    <h2>Additional Resources</h2>
+    <ul>
+        <li><a href="[Project_Documentation]">Project Documentation</a></li>
+        <li><a href="[Contribution_Documentation]">Contribution Documentation</a></li>
+        <li><a href="[Community_Guidelines]">Community Guidelines</a></li>
+    </ul>
+
+    <p>Thank you for your contribution!</p>
+</body>
 </html>
