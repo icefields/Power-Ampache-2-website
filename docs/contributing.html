@@ -32,7 +32,11 @@
         }
         ul, ol {
             margin: 10px 0;
-            padding: 0;
+            padding-left: 20px; /* Indentation for lists */
+        }
+        ul ul, ol ol {
+            margin: 5px 0;
+            padding-left: 20px; /* Additional indentation for sublists */
         }
         li {
             margin: 5px 0;
@@ -44,12 +48,29 @@
         a:hover {
             text-decoration: underline;
         }
+        ol {
+            list-style-type: decimal;
+        }
+        ul {
+            list-style-type: disc;
+        }
+        .highlight {
+            background-color: #333;
+            border-left: 5px solid #0099ff;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
     <h1>Contribution Guidelines</h1>
     <p>Thank you for contributing to Power Ampache 2! To ensure high-quality contributions, please follow these guidelines, including adhering to Clean Architecture and SOLID principles, and specific instructions about branching and merging.</p>
-    <p><u>Before starting any contribution, read this document and if necessary contact me for an overview of the design patterns, code style and libraries used.</u></p>
+
+    <div class="highlight">
+        <p>Before starting any contribution, read this document and if necessary contact me for an overview of the design patterns, code style, and libraries used.</p>
+    </div>
+
     <h2>Branching and Merging Process</h2>
     <ol>
         <li><strong>Branching</strong>:
