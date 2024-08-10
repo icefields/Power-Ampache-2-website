@@ -3,8 +3,7 @@
   "target": {
     "namespace": "android_app",
     "package_name": "luci.sixsixsix.powerampache2.play",
-    "sha256_cert_fingerprints":
-    ["36:30:FD:04:CD:B6:C8:A1:5C:54:02:91:3F:80:B8:9E:79:AB:A3:92:E0:78:A0:65:5F:02:B4:F0:6F:7D:23:D1"]
+    "sha256_cert_fingerprints": ["36:30:FD:04:CD:B6:C8:A1:5C:54:02:91:3F:80:B8:9E:79:AB:A3:92:E0:78:A0:65:5F:02:B4:F0:6F:7D:23:D1"]
   }
 },
   {
@@ -12,7 +11,6 @@
   "target": {
     "namespace": "android_app",
     "package_name": "luci.sixsixsix.powerampache2.free",
-    "sha256_cert_fingerprints":
-    ["36:30:FD:04:CD:B6:C8:A1:5C:54:02:91:3F:80:B8:9E:79:AB:A3:92:E0:78:A0:65:5F:02:B4:F0:6F:7D:23:D1"]
+    "sha256_cert_fingerprints": ["36:30:FD:04:CD:B6:C8:A1:5C:54:02:91:3F:80:B8:9E:79:AB:A3:92:E0:78:A0:65:5F:02:B4:F0:6F:7D:23:D1"]
   }
 }]
