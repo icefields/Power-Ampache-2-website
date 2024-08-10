@@ -4,6 +4,15 @@
     "namespace": "android_app",
     "package_name": "luci.sixsixsix.powerampache2.play",
     "sha256_cert_fingerprints":
-    ["14:6D:E9:83:C5:73:06:50:D8:EE:B9:95:2F:34:FC:64:16:A0:83:42:E6:1D:BE:A8:8A:04:96:B2:3F:CF:44:E5"]
+    ["36:30:FD:04:CD:B6:C8:A1:5C:54:02:91:3F:80:B8:9E:79:AB:A3:92:E0:78:A0:65:5F:02:B4:F0:6F:7D:23:D1"]
+  }
+},
+  {
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "luci.sixsixsix.powerampache2.free",
+    "sha256_cert_fingerprints":
+    ["36:30:FD:04:CD:B6:C8:A1:5C:54:02:91:3F:80:B8:9E:79:AB:A3:92:E0:78:A0:65:5F:02:B4:F0:6F:7D:23:D1"]
   }
 }]
