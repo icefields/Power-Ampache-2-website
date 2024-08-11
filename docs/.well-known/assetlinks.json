@@ -1,24 +1,34 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "luci.sixsixsix.powerampache2.play",
-    "sha256_cert_fingerprints": ["36:30:FD:04:CD:B6:C8:A1:5C:54:02:91:3F:80:B8:9E:79:AB:A3:92:E0:78:A0:65:5F:02:B4:F0:6F:7D:23:D1"]
-  }
-},
+[
   {
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "luci.sixsixsix.powerampache2.free",
-    "sha256_cert_fingerprints": ["36:30:FD:04:CD:B6:C8:A1:5C:54:02:91:3F:80:B8:9E:79:AB:A3:92:E0:78:A0:65:5F:02:B4:F0:6F:7D:23:D1"]
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "luci.sixsixsix.powerampache2.play",
+      "sha256_cert_fingerprints": ["36:30:FD:04:CD:B6:C8:A1:5C:54:02:91:3F:80:B8:9E:79:AB:A3:92:E0:78:A0:65:5F:02:B4:F0:6F:7D:23:D1"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "luci.sixsixsix.powerampache2.free",
+      "sha256_cert_fingerprints": ["36:30:FD:04:CD:B6:C8:A1:5C:54:02:91:3F:80:B8:9E:79:AB:A3:92:E0:78:A0:65:5F:02:B4:F0:6F:7D:23:D1"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "luci.sixsixsix.powerampache2.fdroid",
+      "sha256_cert_fingerprints": ["43:23:8D:51:2C:1E:5E:B2:D6:56:9F:4A:3A:FB:F5:52:34:18:B8:2E:0A:3E:D1:55:27:70:AB:B9:A9:C9:CC:AB"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "luci.sixsixsix.powerampache2",
+      "sha256_cert_fingerprints": ["E0:1D:28:02:34:62:5A:4A:8C:2E:56:8E:76:BA:FA:2D:EA:36:8C:A9:03:93:83:57:58:6F:04:50:F5:36:4E:9F"]
+    }
   }
-},
-{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "luci.sixsixsix.powerampache2.fdroid",
-    "sha256_cert_fingerprints": ["43:23:8D:51:2C:1E:5E:B2:D6:56:9F:4A:3A:FB:F5:52:34:18:B8:2E:0A:3E:D1:55:27:70:AB:B9:A9:C9:CC:AB"]
-  }
-}
+]
