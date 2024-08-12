@@ -11,7 +11,7 @@
   "playlistFetchLimit": 0,
   "playlistSongsFetchLimit": 100,
   "queueResetOnNewSession": false,
-  "loginWarning": "User your Dogmazic credentials to login",
+  "loginWarning": "Use your Dogmazic credentials to login",
   "playlistsUserFetch": true,
   "smartlistsUserFetch": true,
   "playlistsAdminFetch": false,
