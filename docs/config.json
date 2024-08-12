@@ -1,5 +1,5 @@
 {
-  "version": 60,
+  "version": 65,
   "clearLocalDataOnLogout": true,
   "dogmazicDemoUser": "",
   "dogmazicDemoToken": "ac0cf8b78c2af2780ab401162240499e",
@@ -17,5 +17,6 @@
   "playlistsAdminFetch": false,
   "smartlistsAdminFetch": false,
   "playlistsServerAllFetch": true,
-  "clearLibraryOnCatalogClean": true
+  "clearLibraryOnCatalogClean": true,
+  "introMessage": "Welcome to Power Ampache 2\nThe app is in constant development, if you find any bug please report it and we'll be happy to fix it"
 }
