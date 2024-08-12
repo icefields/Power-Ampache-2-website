@@ -16,7 +16,7 @@
   "smartlistsUserFetch": true,
   "playlistsAdminFetch": true,
   "smartlistsAdminFetch": true,
-  "playlistsServerAllFetch": true,
+  "playlistsServerAllFetch": false,
   "clearLibraryOnCatalogClean": false,
   "introMessage": "Welcome to Power Ampache 2\nThe app is in constant development, if you find any bug please report it and we'll be happy to fix it"
 }
