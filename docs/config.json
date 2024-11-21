@@ -18,5 +18,6 @@
   "smartlistsAdminFetch": false,
   "playlistsServerAllFetch": true,
   "clearLibraryOnCatalogClean": true,
-  "introMessage": "Welcome to Power Ampache 2\nThe app is in constant development, if you find any bug please report it and we'll be happy to fix it"
+  "introMessage": "Welcome to Power Ampache 2\nThe app is in constant development, if you find any bug please report it and we'll be happy to fix it",
+  "isDownloadsSdCardOptionEnabled": true
 }
