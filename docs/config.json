@@ -1,5 +1,5 @@
 {
-  "version": 65,
+  "version": 76,
   "clearLocalDataOnLogout": true,
   "dogmazicDemoUser": "",
   "dogmazicDemoToken": "ac0cf8b78c2af2780ab401162240499e",
@@ -18,7 +18,7 @@
   "smartlistsAdminFetch": false,
   "playlistsServerAllFetch": true,
   "clearLibraryOnCatalogClean": true,
-  "introMessage": "introdialog.html",
+  "introMessage": "introdialog01.html",
   "isDownloadsSdCardOptionEnabled": true,
   "isRecordPlayApiEnabled": true,
   "forceSkipOnNetworkError": false,
