@@ -18,9 +18,10 @@
   "smartlistsAdminFetch": true,
   "playlistsServerAllFetch": false,
   "clearLibraryOnCatalogClean": false,
-  "introMessage": "introdialog.html",
+  "introMessage": "local::asset",
   "isDownloadsSdCardOptionEnabled": true,
   "isRecordPlayApiEnabled": true,
   "forceSkipOnNetworkError": false,
-  "fetchAlbumsWithArtist": true
+  "fetchAlbumsWithArtist": true,
+  "albumHighestFetchLimit" : 500
 }
