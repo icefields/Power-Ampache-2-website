@@ -22,5 +22,6 @@
   "isDownloadsSdCardOptionEnabled": true,
   "isRecordPlayApiEnabled": true,
   "forceSkipOnNetworkError": false,
-  "fetchAlbumsWithArtist": true
+  "fetchAlbumsWithArtist": true,
+  "albumHighestFetchLimit" : 500
 }
