@@ -18,7 +18,7 @@
   "smartlistsAdminFetch": false,
   "playlistsServerAllFetch": true,
   "clearLibraryOnCatalogClean": true,
-  "introMessage": "local::asset",
+  "introMessage": "introdialog05.html",
   "isDownloadsSdCardOptionEnabled": true,
   "isRecordPlayApiEnabled": true,
   "forceSkipOnNetworkError": false,
