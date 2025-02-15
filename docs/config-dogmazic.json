@@ -23,5 +23,10 @@
   "isRecordPlayApiEnabled": true,
   "forceSkipOnNetworkError": false,
   "fetchAlbumsWithArtist": true,
-  "albumHighestFetchLimit" : 500
+  "albumHighestFetchLimit" : 500,
+  "songsHighestFetchLimit" : 5000,
+  "songsFlaggedFetchLimit" : 5000,
+  "songsFrequentFetchLimit" : 5000,
+  "songsHighestFetchLimit" : 5000,
+  "songsRecentFetchLimit" : 5000
 }
