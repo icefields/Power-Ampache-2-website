@@ -28,5 +28,5 @@
   "songsFlaggedFetchLimit" : 5000,
   "songsFrequentFetchLimit" : 666,
   "songsRecentFetchLimit" : 666,
-  "useIncrementalLimitForAlbums" : true
+  "useIncrementalLimitForAlbums" : false
 }
