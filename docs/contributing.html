@@ -54,6 +54,11 @@
         ul {
             list-style-type: disc;
         }
+        .full-width-image {
+            width: 100%;
+            padding: 40px;       /* Optional: adds space inside the container */
+            box-sizing: border-box; /* Ensures padding is included in the total width */
+        }
         .highlight {
             background-color: #333;
             border-left: 5px solid #0099ff;
@@ -182,7 +187,9 @@ Implemented user authentication logic following SRP and OCP principles.
             </ul>
         </li>
     </ol>
-
+    <h2>Power Ampache 2 Architecture</h2>
+    <img src="architecture_schematics/Architecture.png" alt="Power Ampache 2 Architecture" class="full-width-image">
+<br>
     <h2>Library Management</h2>
     <ol>
         <li><strong>Adding New Libraries</strong>:
