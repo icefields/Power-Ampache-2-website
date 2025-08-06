@@ -29,7 +29,7 @@
   "songsFrequentFetchLimit": 666,
   "songsRecentFetchLimit": 666,
   "useIncrementalLimitForAlbums": true,
-  "queueSizeLimit": 666,
+  "queueSizeLimit": 11,
   "removeDuplicateSongs": false,
-  "removeDuplicateAlbums": false
+  "removeDuplicateAlbums": true
 }
