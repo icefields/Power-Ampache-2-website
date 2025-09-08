@@ -31,5 +31,6 @@
   "useIncrementalLimitForAlbums": true,
   "queueSizeLimit": 555,
   "removeDuplicateSongs": true,
-  "removeDuplicateAlbums": true
+  "removeDuplicateAlbums": true,
+  "showSettingsExportDbButton": true
 }
