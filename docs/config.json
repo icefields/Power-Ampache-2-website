@@ -32,5 +32,6 @@
   "queueSizeLimit": 555,
   "removeDuplicateSongs": true,
   "removeDuplicateAlbums": true,
+  "hideAlbumsRatedBelow": 0,
   "showSettingsExportDbButton": false
 }
