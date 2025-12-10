@@ -11,7 +11,7 @@
   "playlistFetchLimit": 0,
   "playlistSongsFetchLimit": 100,
   "queueResetOnNewSession": false,
-  "loginWarning": "Nextcloud Music Users: please update to Music v2.0.0 or above, if you're having issues logging in.",
+  "loginWarning": "Nextcloud Music Users: to LOGIN follow the instructions under Music -> Settings -> Ampache and Subsonic. (v2.0.0 or above)",
   "playlistsUserFetch": false,
   "smartlistsUserFetch": false,
   "playlistsAdminFetch": false,
