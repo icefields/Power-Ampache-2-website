@@ -33,5 +33,6 @@
   "removeDuplicateSongs": true,
   "removeDuplicateAlbums": true,
   "hideAlbumsRatedBelow": 0,
-  "showSettingsExportDbButton": false
+  "showSettingsExportDbButton": false,
+  "featureString": "android.hardware.type.automotive"
 }
