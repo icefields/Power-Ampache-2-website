@@ -35,5 +35,7 @@
   "hideAlbumsRatedBelow": 0,
   "showSettingsExportDbButton": false,
   "featureString": "android.hardware.type.automotive",
-  "enableExternalDirDownloads": true
+  "enableExternalDirDownloads": true,
+  "performOfflineSongsSanityCheck": true,
+  "forceOfflineSongsSanityCheck": true
 }
