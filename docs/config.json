@@ -37,5 +37,5 @@
   "featureString": "android.hardware.type.automotive",
   "enableExternalDirDownloads": true,
   "performOfflineSongsSanityCheck": true,
-  "forceOfflineSongsSanityCheck": true
+  "forceOfflineSongsSanityCheck": false
 }
