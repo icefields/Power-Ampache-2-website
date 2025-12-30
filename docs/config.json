@@ -34,5 +34,6 @@
   "removeDuplicateAlbums": true,
   "hideAlbumsRatedBelow": 0,
   "showSettingsExportDbButton": false,
-  "featureString": "android.hardware.type.automotive"
+  "featureString": "android.hardware.type.automotive",
+  "enableExternalDirDownloads": true
 }
